@@ -1,17 +1,16 @@
 import os
 import time
 import numpy as np
-import intro_sketch
 import cv2
 import face
 import sort_vp
 import ikine
 import motor_operator
-from prop_paper import ProperPaper
-import motor_disable
+
+import intro_sketch
+
 from multiprocessing import Process, Event
 import time
-import imutils
 import contour_paper
 
 start_time = time.time()
